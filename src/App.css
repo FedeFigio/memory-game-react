@@ -1,0 +1,49 @@
+.App {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    padding: 50px;
+    align-self: flex-start;
+}
+
+.logo {
+    width: 100%;
+}
+
+.button {
+    margin-top: 30px;
+    background: none;
+    border: 2px solid #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    -webkit-box-shadow: 0px 10px 13px -7px #fff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #fff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.button:hover {
+    background: rgb(122, 0, 0);
+}
+
+.button:active {
+    background: rgb(160, 0, 0);
+}
+
+.card-grid {
+    margin-top: 40px;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
